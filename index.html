@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Position</title>
+</head>
+<body>
+
+    <header>
+        <h1>Position</h1>
+        <p>Aprenderemos como posicionar elementos na página. Há alguns posicionamentos que precisamos conhecer para aplicar no nosso site.</p>
+
+        <p>O position é utilizado com 4 propriedades top, right, left e bottom sendo essas usadas em dupla, top com o right e bottom com o left.</p>
+    </header>
+
+    <main>
+        <section>
+            <div class="alinhamento">
+                <span>
+                    <h2>Top e Right</h2>
+                    <ul>
+                        <li>Top: Desloca o elemento na vertical(y), o valor é referente a distância com o topo.</li>
+                        <li>Right: Desloca o elemento na horizontal(x), o valar é referente a distância do elemento com a borda direita.</li>
+                    </ul>
+                </span>
+                <img src="rght.png" alt="Top e Right">
+            </div>
+            <div class="alinhamento">
+                <span>
+                    <h2>Bottom e left</h2>
+                    <ul>
+                        <li>Bottom: Desloca o elemento na vertical(y), o valor é referente a distância do elemento com a borda inferior.</li>
+                        <li>Left: Desloca o elemento na horizontal(x), o valor é referente a distância do elemento com a borda esquerda.</li>
+                    </ul>
+                </span>
+                <img src="left.png" alt="Left e Bottom">
+            </div>
+        </section>
+
+        <section>
+            <h2>Position: static;</h2>
+            <p>É o valor estático de todo elemento HTML, neste posicionamento os elementos não podem ser controlados por top, right, bottom, left, e não tem seu posicionamento afetado pelo posicionamento de outros elementos.</p>
+
+            <div class="area1">
+                <div class="position1"><p class="item-position1">Postion: static;</p></div>
+            </div>
+
+            <h2>Position: relative;</h2>
+            <p>Torna a caixa relativa aos 4 cantos dela mesma.</p>
+            <div class="area2">
+                <div class="position2"><p class="item-position2">Postion: relative;</p></div>
+            </div>
+
+            <h2>Position:absolute;</h2>
+            <p>Absolute torna nossa caixa absoluta a nossa caixa pai.</p>
+
+            <div class="area3">
+                <div class="position3"><p class="item-position3">Postion: absolute;</p></div>
+            </div>
+
+            <h2>Position: fixed;</h2>
+            <p>O fixed tem o mesmo comportamento do absolute,porém, como o nome diz, torna nossa caixa fixa na tela, mesmo se acontecer a roalgem ele ficará fixado na tela.</p>
+
+            <div class="area4">
+                <div class="position4"><p class="item-position4">Postion: fixed;</p></div>
+            </div>
+
+            <h2>Z-index</h2>
+            <p>A propriedade z-index define ordem de sobreposição do nosso elemento, um elemento com maior valor de Z-index sempre estará na frente e um com menor valor.</p>
+
+            <section class="area5">
+                <div class="position5"><p class="item-zindex3">Z-index: 3;</p></div>
+                <div class="position6"><p class="item-zindex2">Z-index: 2;</p></div>
+                <div class="position7"><p class="item-zindex1">Z-index: 1;</p></div>
+            <section>
+        </section>
+        
+    </main>
+</body>
+</html>
